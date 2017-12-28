@@ -11,7 +11,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -87,9 +87,9 @@
             ['OS=="mac"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'xcode_settings': {
-                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++14", "-fexceptions", "-stdlib=libc++", "-Werror"],
+                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++1y", "-fexceptions", "-stdlib=libc++", "-Werror"],
                     'OTHER_LDFLAGS': [],
                     'MACOSX_DEPLOYMENT_TARGET': '10.10'
                 },
@@ -124,7 +124,7 @@
             'target_name': 'h5lt',
             'conditions': [
             ['OS=="linux"', {
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -188,9 +188,9 @@
                 }
             }],
             ['OS=="mac"', {
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'xcode_settings': {
-                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++14", "-fexceptions", "-stdlib=libc++", "-Werror"],
+                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++1y", "-fexceptions", "-stdlib=libc++", "-Werror"],
                     'OTHER_LDFLAGS': [],
                     'MACOSX_DEPLOYMENT_TARGET': '10.10'
                 },
@@ -218,7 +218,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -282,9 +282,9 @@
                 }
             }],
             ['OS=="mac"', {
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'xcode_settings': {
-                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++14", "-fexceptions", "-stdlib=libc++", "-Werror"],
+                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++1y", "-fexceptions", "-stdlib=libc++", "-Werror"],
                     'OTHER_LDFLAGS': [],
                     'MACOSX_DEPLOYMENT_TARGET': '10.10'
                 },
@@ -310,7 +310,7 @@
             'target_name': 'h5pt',
             'conditions': [
             ['OS=="linux"', {
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -378,9 +378,9 @@
                 }
             }],
             ['OS=="mac"', {
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'xcode_settings': {
-                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++14", "-fexceptions", "-stdlib=libc++", "-Werror"],
+                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++1y", "-fexceptions", "-stdlib=libc++", "-Werror"],
                     'OTHER_LDFLAGS': [],
                     'MACOSX_DEPLOYMENT_TARGET': '10.10'
                 },
@@ -409,7 +409,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -473,9 +473,9 @@
                 }
             }],
             ['OS=="mac"', {
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'xcode_settings': {
-                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++14", "-fexceptions", "-stdlib=libc++", "-Werror"],
+                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++1y", "-fexceptions", "-stdlib=libc++", "-Werror"],
                     'OTHER_LDFLAGS': [],
                     'MACOSX_DEPLOYMENT_TARGET': '10.10'
                 },
@@ -503,7 +503,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-O4", "-std=c++14", "-fexceptions"],
+                'cflags': ['-fPIC', "-O4", "-std=c++1y", "-fexceptions"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -568,7 +568,7 @@
             }],
             ['OS=="mac"', {
                 'xcode_settings': {
-                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++14", "-fexceptions", "-stdlib=libc++", "-Werror"],
+                    'OTHER_CPLUSPLUSFLAGS': ["-fPIC", "-O3", "-std=c++1y", "-fexceptions", "-stdlib=libc++", "-Werror"],
                     'OTHER_LDFLAGS': [],
                     'MACOSX_DEPLOYMENT_TARGET': '10.10'
                 },
