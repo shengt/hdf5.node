@@ -1,11 +1,11 @@
 {
-  "name": "hdf5",
+  "name": "@cleerly/hdf5",
   "version": "0.3.3",
   "description": "Native Abstractions for hdf5 file io",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HDF-NI/hdf5.node.git"
+    "url": "https://github.com/shengt/hdf5.node.git"
   },
   "devDependencies": {
     "co-mocha": "^1.1.2",
